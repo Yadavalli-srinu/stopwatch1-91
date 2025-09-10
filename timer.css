@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: linear-gradient(gray,lightgray);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-image: url(https://www.shutterstock.com/image-vector/clock-icon-trendy-flat-style-600nw-418178677.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:500px;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 0px 5px 15px;
+}
+.heading{
+    color:black;
+    font-size:40px;
+    font-weight:600;
+    font-family: sans-serif;
+}
+
+.timer{
+    color:gray;
+    background-color: black;
+    font-size:50px;
+    font-weight:500;
+    font-family: sans-serif;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+
+.btn{
+    background-color:black;
+    width:120px;
+    height:35px;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
